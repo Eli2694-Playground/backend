@@ -1,10 +1,7 @@
 name: Test2 
 on:
   workflow_call:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
+  
 jobs:
   build:
     name: Run API
