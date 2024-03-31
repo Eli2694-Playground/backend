@@ -1,11 +1,7 @@
 name: Test2 
+
 on:
   workflow_call:
-    inputs:
-        branch:
-          required: false
-          default: ''
-          type: string
   
 jobs:
   build:
