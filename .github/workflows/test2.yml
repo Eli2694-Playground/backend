@@ -1,0 +1,16 @@
+name: Test2 
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Run API
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build API
+        run: |
+          echo "Build API"
+          sleep 10s
